@@ -1,0 +1,31 @@
+{{ collection:veranstaltungen scope="veranstaltung" sort="startdate:asc|title:asc" }}
+
+{{if startdate | is_future }}
+
+<div class="mt-8 pb-4 w-full flex justify-start items-start border-b border-gray-100">
+    <div class="w-1/5">
+        <div class="flex flex-col items-center label">
+            <span>{{ startdate iso_format="MMMM" }}</span>
+            <span class="font-serif text-gold-500 text-3xl">{{ startdate iso_format="DD" }}</span>
+            <span>{{ startdate format="Y" }}</span>
+        </div>
+    </div>
+    <div class="w-4/5">
+        <h4 class="text-xl font-semibold font-serif leading-none group-hover:text-gold-300 transition duration-500 ease-in-out">{{ title }}</h4>
+        <div class="">
+            {{ veranstaltung:teaser }}
+                {{ if type == "text" }}
+                <div class="mt-1">
+                    {{ text }}
+                </div>
+                {{ /if }}
+            {{ /veranstaltung:teaser }}
+            <a href="{{ url }}" class="label">Mehr...</a>
+        </div>
+    </div>
+</div>
+
+{{ /if }}
+
+{{ /collection:veranstaltungen }}
+

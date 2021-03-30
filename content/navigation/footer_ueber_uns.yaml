@@ -1,0 +1,12 @@
+title: 'Footer Über Uns'
+max_depth: 1
+tree:
+  -
+    title: 'Unser Team'
+    url: /team
+  -
+    title: Kontakt
+    url: /kontakt/
+  -
+    title: Jobs
+    url: /jobs

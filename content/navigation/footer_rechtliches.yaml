@@ -1,0 +1,11 @@
+title: 'Footer Rechtliches'
+tree:
+  -
+    title: Impressum
+    url: /impressum/
+  -
+    title: Datenschutz
+    url: /datenschutz
+  -
+    title: AGB
+    url: /agb/

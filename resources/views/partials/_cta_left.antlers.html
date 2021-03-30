@@ -1,0 +1,14 @@
+<div class="">
+    <h3 class="hidden sm:block font-serif font-semibold text-green-600 lg:text-4xl text-2xl leading-tight">{{ cta_title }}</h3>
+    <div class="mt-4 lg:leading-relaxed lg:text-xlg">{{ cta_teaser }}</div>
+    <a href="{{ cta_url }}" class="mt-6 lg:mt-10 inline-block btn btn-out text-sm">Mehr erfahren</a>
+</div>
+<div class="mt-8 sm:mt-0">
+        {{ if cta_image | extension == 'svg' }}
+            <div class="">
+                {{ svg src="{cta_image}" }}
+            </div>
+        {{ else }}
+            <img src="{{ glide:cta_image height="500" width="700" }}" alt="{{cta_image.alt}}">
+        {{ /if }}
+</div>

@@ -1,0 +1,14 @@
+title: Reihenfolge
+fields:
+  -
+    handle: rf
+    field:
+      input_type: number
+      display: 'Reihenfolge in der jeweiligen Gruppe'
+      type: text
+      icon: text
+      instructions: 'Ganze Zahl eingeben, je höher die Zahl, desto weiter unten steht der Eintrag in der Liste (sofern keine andere Sortierung vereinbart)'
+      width: 25
+      listable: hidden
+      validate:
+        - integer

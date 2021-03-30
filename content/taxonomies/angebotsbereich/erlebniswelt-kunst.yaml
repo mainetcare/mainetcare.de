@@ -1,0 +1,55 @@
+title: 'Erlebniswelt Kunst'
+updated_by: bcc7e124-8753-45c4-9127-eacc804b6168
+updated_at: 1606402758
+blueprint: angebotsbereich
+col_img: erlebniswelten/erlebniswelt_kunst/Kunstkurs.jpg
+rf: 50
+teaser:
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: '„Kunst wäscht den Staub des Alltags von der Seele“ (Pablo Picasso)'
+  -
+    type: paragraph
+  -
+    type: set
+    attrs:
+      values:
+        type: bild
+        teaser_img: pakete/From_Canter_to_Canvas.jpg
+  -
+    type: paragraph
+content:
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Kreativität in malerischer Umgebung: Ganz gleich, ob Sie passionierter Künstler sind oder interessierter Laie – in der Residenz Kubitzer Bodden können Sie Ihrer Kreativität freien Lauf lassen. Greifen Sie zu Öl, Aquarell, Tusche, Feder oder Kohle – halten Sie die Augenblicke und Szenen in Bildern fest, die Sie auf der Insel ansprechen und inspirieren.'
+  -
+    type: set
+    attrs:
+      values:
+        type: bildreihe
+        bildreihe:
+          - erlebniswelten/erlebniswelt_kunst/Kunst-1.jpg
+          - erlebniswelten/erlebniswelt_kunst/Kunst-3.jpg
+          - erlebniswelten/erlebniswelt_kunst/Kunst-2.jpg
+          - erlebniswelten/erlebniswelt_kunst/Kunst-5.jpg
+          - erlebniswelten/erlebniswelt_kunst/Kunst-4.jpg
+          - erlebniswelten/erlebniswelt_kunst/Kunst-6.jpg
+        galerie-layout: gal-sixpack
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Horst Ludwig, geboren und aufgewachsen in Thüringen nahe der Landeshauptstadt Erfurt, malt seit seiner frühesten Jugend. Er wird Sie beim Malen und Zeichnen begleiten. Im Residenz-Atelier (von ihm liebevoll »Kleckshäuschen« genannt) nehmen Sie an seinen Kunstund Malkursen teil. Sein »Kleckshäuschen« liegt unweit des Kubitzer Boddens inmitten von naturbelassenen Wiesen und Koppeln unter großen alten Weiden.'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Seine Lebensleidenschaft zu Pferden und die Liebe zum Leben spiegeln sich in zahlreichen seiner Bilder, Skizzen und Themenbereichen wider. Mit Horst Ludwig malen und zeichnen Sie an unterschiedlichen Orten: Nicht nur das Atelier, auch der Pferdestall, die Weiden und der Reitplatz sind ausgezeichnete Orte, um Pferde und Tierstudien anzufertigen. Die benötigten Materialien bekommen Sie selbstverständlich gestellt.'

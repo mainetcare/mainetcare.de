@@ -1,0 +1,23 @@
+title: Mengeneinheit
+fields:
+  -
+    handle: unit
+    field:
+      options:
+        Tag: Tage
+        Nacht: Nächte
+        Paket: Pakete
+        Kurs: Kurse
+        Stück: Stück
+        Stunde: Stunden
+        Einheit: 'Sonstige Einheit'
+      clearable: false
+      multiple: false
+      searchable: true
+      taggable: false
+      push_tags: false
+      cast_booleans: false
+      type: select
+      instructions: 'Die Mengeneinheit (Unit) der Klasse oder des Angebots'
+      listable: hidden
+      display: Mengeneinheit

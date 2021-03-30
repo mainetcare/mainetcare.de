@@ -1,0 +1,161 @@
+title: Appartement
+sections:
+  main:
+    display: Main
+    fields:
+      -
+        handle: title
+        field:
+          type: text
+          required: true
+          validate:
+            - required
+      -
+        handle: nickname
+        field:
+          input_type: text
+          type: text
+          instructions: 'Der Spitzname zB "Black Beauty"'
+          listable: hidden
+          display: Spitzname
+      -
+        import: coldata
+  sidebar:
+    display: Sidebar
+    fields:
+      -
+        handle: slug
+        field:
+          type: slug
+          required: true
+          localizable: true
+          validate:
+            - required
+      -
+        handle: parent
+        field:
+          type: entries
+          collections:
+            - appartements
+          max_items: 1
+          listable: false
+          localizable: true
+  detailseite:
+    display: Detailseite
+    fields:
+      -
+        import: teaser
+      -
+        import: contentset
+  ausstattung:
+    display: 'Merkmale & Ausstattung'
+    fields:
+      -
+        handle: anzahl_schlafzimmer
+        field:
+          options:
+            1: '1 Schlafzimmer'
+            2: '2 Schlafzimmer'
+          inline: false
+          type: radio
+          listable: hidden
+          display: 'Anzahl Schlafzimmer'
+          width: 50
+      -
+        handle: gaeste_max
+        field:
+          options:
+            2: '2 Personen'
+            4: '4 Personen'
+          clearable: false
+          multiple: false
+          searchable: true
+          taggable: false
+          push_tags: false
+          cast_booleans: false
+          type: select
+          instructions: 'Die maximale Anzahl an möglichen Gästen'
+          listable: hidden
+          display: 'Gäste Maximal'
+          width: 50
+      -
+        handle: flaeche
+        field:
+          input_type: text
+          character_limit: 6
+          append: m²
+          type: text
+          instructions: 'Einheit Quadratmeter nicht mit eingeben, diese wird automatisch gesetzt.'
+          listable: hidden
+          display: Fläche
+          width: 50
+      -
+        handle: aussenerweiterung
+        field:
+          options:
+            loggien: '2 x Loggia'
+            terrasse: Terrasse
+          clearable: false
+          multiple: false
+          searchable: false
+          taggable: false
+          push_tags: false
+          cast_booleans: false
+          type: select
+          instructions: 'Bitte auswählen'
+          listable: hidden
+          display: Außenerweiterung
+          width: 50
+      -
+        handle: lage
+        field:
+          options:
+            eg: '1 Ebene EG mit Terrasse'
+            og: '1 Ebene OG mit zwei Loggien'
+            etagen: 'OG über zwei Etagen'
+          clearable: false
+          multiple: false
+          searchable: true
+          taggable: false
+          push_tags: false
+          cast_booleans: false
+          type: select
+          listable: hidden
+          display: Lage
+          width: 50
+      -
+        handle: anzahl_raum
+        field:
+          options:
+            2: '2 Raum App.'
+            3: '3 Raum App.'
+          clearable: false
+          multiple: false
+          searchable: true
+          taggable: false
+          push_tags: false
+          cast_booleans: false
+          type: select
+          listable: hidden
+          display: Räume
+          width: 50
+      -
+        handle: liste_ausstattung
+        field:
+          type: list
+          instructions: 'Besondere Ausstattung kann hier als Liste hinterlegt werden'
+          listable: hidden
+          display: 'Liste Ausstattung'
+  preise:
+    display: Preise
+    fields:
+      -
+        handle: appartementklasse
+        field:
+          type: terms
+          taxonomies:
+            - appartementklasse
+          display: Klasse
+          mode: select
+          listable: hidden
+          max_items: 1

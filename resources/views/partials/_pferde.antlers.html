@@ -1,0 +1,35 @@
+{{ collection:pferde }}
+
+<div class="mt-16">
+<div class="grid gird-cols-1 sm:grid-cols-3 gap-8">
+<div class="{{ if !col_img }} hidden sm:block {{ /if }}">
+{{ if col_img }}
+    <div x-data="{}">
+        <a
+            @click="$dispatch('img-modal', {  imgModalSrc: '{{ col_img }}', imgModalDesc: '' })"
+            class="cursor-pointer"
+        >
+            {{ partial:partials/col_image w="600" h="600" }}
+        </a>
+    </div>
+
+{{ else }}
+{{ svg src="assets/layout/RKB_Markenlogo.svg" class="m-20" }}
+{{ /if }}
+</div>
+    <div class="sm:col-span-2 h-full">
+        <div class="flex flex-col justify-starf h-full">
+            <h3 class="heading2 text-3xl font-medium sm:leading-none text-gray-900">{{ title }}</h3>
+            <ul class="mt-4 grid gap-2 grid-cols-1 md:grid-cols-2">
+                <li class=""><span class="font-semibold">Mutter:</span> {{ mutter }}</li>
+                <li class=""><span class="font-semibold">Vater:</span> {{ vater }}</li>
+                <li class=""><span class="font-semibold">Geburt:</span> {{ geburt }}</li>
+                <li class=""><span class="font-semibold">Züchter:</span> {{ zuechter }}</li>
+            </ul>
+            <div class="mt-2 sm:mt-4 content">{{ content }} {{ text }} {{ /content }}</div>
+        </div>
+    </div>
+</div>
+</div>
+
+{{ /collection:pferde }}

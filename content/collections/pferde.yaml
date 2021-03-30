@@ -1,0 +1,26 @@
+title: Pferde
+template: default
+layout: layout
+mount: c618b588-9654-488b-86f1-d1588e1ad9a1
+revisions: false
+route: '{mount}/{slug}'
+sort_dir: asc
+date_behavior:
+  past: public
+  future: private
+structure:
+  root: false
+  max_depth: 1
+  tree:
+    -
+      entry: c6f7e2fb-df1d-4e15-bfe7-4e44a2e11c75
+    -
+      entry: ab68e262-5049-4294-8cba-23e7b9a4c8ed
+    -
+      entry: 86266b97-dc76-4102-9f8e-509ed7ffbccd
+    -
+      entry: 3e754e1e-8961-42b5-8b13-078f6041b0f9
+    -
+      entry: 112feffd-c83b-4084-a62b-229942a0b03c
+    -
+      entry: 554844b3-d1ac-4a82-b6b6-c8cb0bab367b

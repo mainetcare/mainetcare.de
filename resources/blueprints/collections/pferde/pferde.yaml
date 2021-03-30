@@ -1,0 +1,77 @@
+title: Pferde
+sections:
+  main:
+    display: Hauptteil
+    fields:
+      -
+        handle: title
+        field:
+          type: text
+          required: true
+          validate:
+            - required
+      -
+        handle: vater
+        field:
+          input_type: text
+          display: Vater
+          type: text
+          icon: text
+          listable: hidden
+          width: 50
+      -
+        handle: mutter
+        field:
+          input_type: text
+          display: Mutter
+          type: text
+          icon: text
+          listable: hidden
+          width: 50
+      -
+        handle: geburt
+        field:
+          input_type: text
+          display: Geburt
+          type: text
+          icon: text
+          listable: hidden
+          width: 50
+      -
+        handle: zuechter
+        field:
+          input_type: text
+          display: Züchter
+          type: text
+          icon: text
+          listable: hidden
+          width: 50
+      -
+        import: coldata
+  sidebar:
+    display: Sidebar
+    fields:
+      -
+        handle: slug
+        field:
+          type: slug
+          required: true
+          localizable: true
+          validate:
+            - required
+      -
+        handle: parent
+        field:
+          type: entries
+          collections:
+            - pferde
+          max_items: 1
+          listable: false
+          localizable: true
+  details:
+    display: Details
+    fields:
+      -
+        import: teaser
+      -
+        import: contentset

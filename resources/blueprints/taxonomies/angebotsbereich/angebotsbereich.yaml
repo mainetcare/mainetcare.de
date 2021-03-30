@@ -1,0 +1,33 @@
+title: Angebotsbereich
+sections:
+  main:
+    display: Hauptteil
+    fields:
+      -
+        handle: title
+        field:
+          type: text
+          required: true
+          validate:
+            - required
+      -
+        import: coldata
+  sidebar:
+    display: Sidebar
+    fields:
+      -
+        handle: slug
+        field:
+          type: slug
+          required: true
+          validate:
+            - required
+      -
+        import: reihenfolge
+  content:
+    display: Content
+    fields:
+      -
+        import: teaser
+      -
+        import: contentset

@@ -1,0 +1,11 @@
+title: 'CSS Klassen'
+fields:
+  -
+    handle: css_class
+    field:
+      input_type: text
+      display: 'CSS Klasse'
+      type: text
+      icon: text
+      instructions: 'Zusätzliche CSS Klassen für dieses Element. Bitte mit Leerzeichen trennen'
+      listable: hidden

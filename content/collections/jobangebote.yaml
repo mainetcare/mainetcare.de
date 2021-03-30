@@ -1,0 +1,14 @@
+title: Jobangebote
+template: default
+layout: layout
+mount: f15c4d3e-dfbf-4483-bc99-8b5613eeaa3a
+revisions: false
+route: 'jobs/{slug}'
+sort_dir: asc
+date_behavior:
+  past: public
+  future: private
+structure:
+  root: false
+  max_depth: 1
+  tree: {  }

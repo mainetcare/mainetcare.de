@@ -1,0 +1,20 @@
+title: Company
+data:
+  name: 'Residenz Kubitzer Bodden'
+  slogan: 'Herrlicher gibt es nicht'
+  address: 'Grabitz 10, 18573 Rambin'
+  zipcode: '18573'
+  mail_request_to: Olaf.jaehnige@rkba.de
+  email: info@residenz-kubitzer-bodden.de
+  mail_footer: |
+    Residenz Kubitzer Bodden
+    herrlicher gibt es nicht
+    
+    Grabitz 6,
+    18573 Rambin
+    Insel Rügen
+    
+    E-Mail: info@kubitzer-bodden.de
+    Website: https://residenz-kubitzer-bodden.de
+  facebook: 'https://www.facebook.com/RKB2021'
+  instagram: 'https://www.instagram.com/residenz2021/'

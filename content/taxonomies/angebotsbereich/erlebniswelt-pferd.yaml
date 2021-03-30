@@ -1,0 +1,195 @@
+title: 'Erlebniswelt Pferd'
+updated_by: bcc7e124-8753-45c4-9127-eacc804b6168
+updated_at: 1606928163
+blueprint: angebotsbereich
+rf: 10
+template: pferde
+teaser:
+  -
+    type: heading
+    attrs:
+      level: 3
+    content:
+      -
+        type: text
+        text: 'Außergewöhnliche Angebote für Mensch und Pferd'
+  -
+    type: paragraph
+  -
+    type: set
+    attrs:
+      values:
+        type: bild
+        teaser_img: erlebniswelten/erlebniswelt_pferd/02_ausritteundco/Ausritte.jpg
+  -
+    type: paragraph
+content:
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Erleben Sie geführte Ausritte auf arabischen Vollblütern. Verweilen Sie inmitten der Natur beim Picknick mit Pferd. Erleben Sie „Arabische Vollblüter“ in Zucht- und Show-Veranstaltungen. Spannen Sie aus in der privaten Reiterlounge. Genießen Sie 15 Hektar weitläufige Koppelwiesen.'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Schenken Sie Ihrem Pferd das volle Verwöhn- Programm – Rundumbetreuung garantiert: 15 Boxen für Gastpferde mit persönlicher Web-Cam, Paddocks & Reitplatz. '
+  -
+    type: paragraph
+  -
+    type: set
+    attrs:
+      values:
+        type: bildreihe
+        bildreihe:
+          - erlebniswelten/erlebniswelt_pferd/02_ausritteundco/Picknick-2.jpg
+        galerie-layout: gal-list
+  -
+    type: heading
+    attrs:
+      level: 3
+    content:
+      -
+        type: text
+        text: 'LAND UND LECKER »TAGESRITT MIT PICKNICK«'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: '• 4-5 stündiger Ausritt'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: '• Inklusive Teilstrecke am/im Wasser'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: '• Luxus-Picknick pur: vom Champagner über regionale Spezialitäten bis hin zu frischen Salaten halten wir alles für den Ausritt bereit; freuen Sie sich auf ein besonderes »Tischlein deck dich« an einem unvergesslichen Ort'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'Hinweis:'
+      -
+        type: text
+        text: ' Nur mit Reiterfahrung buchbar. '
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Genießen Sie einen Tagesritt auf arabischen Vollblutpferden der Residenz Kubitzer Bodden. Kommen Sie mit auf eine kleine Reise in eine andere Zeit und fühlen Sie sich wie in eine frühere Ära versetzt. Über Stock und Stein, durch unwegsames Gelände und entlang abgelegener Feldwege führt der Weg bis ans Wasser.'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Genießen Sie anschließend die Rast mit einem luxuriösem Residenz-Picknick.'
+  -
+    type: set
+    attrs:
+      values:
+        type: bildreihe
+        bildreihe:
+          - erlebniswelten/erlebniswelt_pferd/02_ausritteundco/Fotoshooting_mit_Pferd.jpg
+        galerie-layout: gal-list
+  -
+    type: heading
+    attrs:
+      level: 3
+    content:
+      -
+        type: text
+        text: 'EIN BILD VON EINEM PFERD »FOTOSHOOTING«'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: '• Freie Wahl des Pferdes, optional zwei Pferde'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: '• Ein Outfit kann gestellt werden'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: '• Verschiedene Locations im Umkreis der Residenz Kubitzer Bodden'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: '(Ausflüge auf Rügen als Option)'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: '• mindestens 80 Bilder zur Auswahl mit Wasserzeichen'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: '• 5 bearbeitete Bilder'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'Tipp:'
+      -
+        type: text
+        text: ' Dieses Angebot richtet sich nicht nur an Reiter. Auch wenn Sie bislang noch keine oder nur wenige Berührungspunkte mit Pferden hatten, können Sie ein Shooting mit Pferd buchen. Das Pferd, mit dem Sie sich ablichten lassen, wird fachmännisch betreut. Sie müssen sich um gar nichts kümmern. Auf Wunsch stellt Ihnen die Residenz für das Shooting auch ein passendes Outfit. Bei erfahrenen Reitern sind natürlich auch Reitbilder möglich.'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Elegant, temperamentvoll und dennoch ganz und gar sanftmütig: Arabische Pferde sind in jeder Hinsicht besonders. Lassen Sie sich mit diesen anmutigen Lebewesen in Szene setzen. Mit feinem Kopf, großen ausdrucksstarken Augen und hochgetragenem Schweif sind diese Pferde eine edle Erscheinung, die auf professionellen Fotos toll zur Geltung kommt. Kaum eine Pferderasse zeigt eine stärkere Präsenz.'
+  -
+    type: heading
+    attrs:
+      level: 3
+    content:
+      -
+        type: text
+        text: "Geführte\_Ausritte, Anmutig in der Erscheinung, sanft im Wesen …"
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Sie wollten schon immer mal einen arabischen Vollblüter reiten? Wer diese Pferde kennt oder kennen lernen möchte, ist hier genau richtig. Bei einem Urlaub auf der Residenz Kubitzer Bodden haben Sie die einmalige Gelegenheit, die wunderschöne Boddenlandschaft vom Rücken arabischer Pferde aus zu erkunden.'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Auf feinrittigen, gut ausgebildeten Pferden durchstreifen Sie die schönsten Landschaften, galoppieren über saftige Wiesen und waten durch das seichte Wasser des Boddens.'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Die geführten Ausritte finden in kleinen Gruppen mit nicht mehr als drei Begleitern statt. Wahlweise sind auch Einzelritte möglich. In diesem Fall wählen Sie Dauer und Tempo des Ausritts selbst. Spüren Sie den Wind im Haar und das Gefühl von Freiheit im Herzen. Unterschätzen Sie jedoch nicht das angeborene Temperament der Araber – auch wenn die Residenz-Pferde als ausgesprochen gelassen und zuverlässig zu bezeichnen sind. Grundsätzlich gilt: Trailausritte sind nur etwas für fortgeschrittene Reiter mit Geländeerfahrung.'
+col_img: erlebniswelten/erlebniswelt_pferd/02_ausritteundco/Ausritt.jpg

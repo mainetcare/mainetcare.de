@@ -1,0 +1,34 @@
+sections:
+  main:
+    display: Hauptteil
+    fields:
+      -
+        handle: alt
+        field:
+          type: text
+          display: 'Alt Text'
+          instructions: 'Description of the image'
+      -
+        handle: source
+        field:
+          restrict: false
+          automatic_line_breaks: true
+          automatic_links: false
+          escape_markup: false
+          smartypants: false
+          display: Quellenangabe
+          type: markdown
+          icon: markdown
+          listable: hidden
+      -
+        handle: caption
+        field:
+          restrict: false
+          automatic_line_breaks: true
+          automatic_links: false
+          escape_markup: false
+          smartypants: false
+          display: Bildunterschrift
+          type: markdown
+          icon: markdown
+          listable: hidden

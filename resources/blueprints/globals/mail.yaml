@@ -1,0 +1,11 @@
+sections:
+  main:
+    display: Hauptteil
+    fields:
+      -
+        handle: mailto_request
+        field:
+          input_type: email
+          display: 'Email Adresse für Buchungsanfrage'
+          type: text
+          listable: hidden

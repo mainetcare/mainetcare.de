@@ -1,0 +1,42 @@
+sections:
+  main:
+    display: Hauptteil
+    fields:
+      -
+        handle: name
+        field:
+          input_type: text
+          antlers: false
+          display: Name
+          type: text
+          icon: text
+          instructions: 'Ihe Name'
+          listable: hidden
+      -
+        handle: email
+        field:
+          input_type: text
+          antlers: false
+          display: E-Mail
+          type: text
+          icon: text
+          instructions: 'Ihre E-Mail Adresse'
+          listable: hidden
+      -
+        handle: mitteilung
+        field:
+          antlers: false
+          display: 'Hinweise und Mitteilungen'
+          type: textarea
+          icon: textarea
+          instructions: 'Schreiben Sie uns'
+          listable: hidden
+      -
+        handle: betreff
+        field:
+          input_type: text
+          antlers: false
+          display: Betreff
+          type: text
+          icon: text
+          listable: hidden

@@ -1,0 +1,87 @@
+title: Staffelpreise
+fields:
+  -
+    handle: unit
+    field: mengeneinheit.unit
+    config:
+      options:
+        tag: Tage
+        nacht: Nächte
+        paket: Pakete
+        kurs: Kurse
+        stk: Stück
+        haustier: Haustiere
+        std: Stunden
+        tour: Tour
+        person: Person
+        einheit: 'Sonstige Einheit'
+      instructions: 'Die Mengeneinheit (Unit) der Variante oder des Angebots, es muss mindestens eine (Haupt-) Einheit geben.'
+  -
+    handle: variant
+    field:
+      input_type: text
+      display: Variante
+      type: text
+      instructions: 'Für jede Mengeneinheit kann eine Variante bestimmt werden. Mengeneinheit und Variante bestimmen die Preisgruppe. Kann leergelassen werden, wenn die Mengeneinheit in dieser Preisgruppe eindeutig ist'
+      listable: hidden
+  -
+    handle: multiplier
+    field:
+      options:
+        stk: Stück
+        person: Person
+        pferd: Pferd
+      multiple: false
+      clearable: true
+      searchable: false
+      taggable: false
+      push_tags: false
+      cast_booleans: false
+      display: Multiplikator
+      type: select
+      instructions: 'Gibt es einen Multiplikator für das Angebot, z.B. "Person" bedeutet, dass man zusätzlich zur Auswahl noch die Anzahl an Personen auswählen kann. Der Multiplikator wird mit der Auswahl multipliziert.'
+      listable: hidden
+      placeholder: 'Keine Auswahl = Kein Multiplikator'
+  -
+    handle: preise
+    field:
+      fields:
+        -
+          handle: preis
+          field:
+            input_type: number
+            type: text
+            instructions: 'Der Preis der Tagesstaffel, z.B. Ab 3. Tag kostet Angebot nur noch 10,- EUR / Tag'
+            listable: hidden
+            display: Preis
+        -
+          handle: ab_me
+          field:
+            input_type: number
+            type: text
+            instructions: 'Staffel ab wieviel Mengeneinheiten (z.B. Tage, Stück, etc) dieser Preis gilt'
+            listable: hidden
+            display: 'Ab ME'
+        -
+          handle: label_cart
+          field:
+            input_type: text
+            type: text
+            instructions: 'Das Label, wenn Artikel im Warenkorb ist.'
+            listable: hidden
+            display: 'Label Warenkorb'
+        -
+          handle: label_liste
+          field:
+            input_type: text
+            type: text
+            instructions: 'Label für die Listendarstellung, z.B. "Für 1 Tag"'
+            listable: hidden
+            display: 'Label Liste'
+      mode: table
+      min_rows: 1
+      reorderable: true
+      type: grid
+      listable: hidden
+      display: Preise
+      add_row: 'Neue Zeile'

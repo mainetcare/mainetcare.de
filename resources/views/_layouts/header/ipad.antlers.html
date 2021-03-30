@@ -1,0 +1,38 @@
+<div class="py-3 flex items-center justify-between">
+    <a href="/" title="Zur Startseite" class="block w-40 py-3" style="max-width:120px;">
+        {{ svg src="assets/layout/Logo RKB.svg" }}
+    </a>
+    <div class="flex justify-end">
+        <a href="/buchen" class="lg:ml-2 btn py-2 px-5 sm:text-xs lg:text-sm">Jetzt&nbsp;buchen</a>
+        <button @click="show_canvas = true"
+                type="button"
+                class="ml-6 inline-block text-gold-500 hover:text-gray-900 focus:text-gray-900 focus:outline-none focus:shadow-outline"
+        >
+            {{#  Hamburger Icon: #}}
+            <svg class="w-6 h-6 stroke-current" viewBox="0 0 30 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M2 2H28M2 12H28M2 22H28" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+        </button>
+    </div>
+</div>
+{{# Off Canvas #}}
+<div x-show.transition="show_canvas" x-cloak="" class="overflow-x-hidden overflow-y-visible fixed w-full h-full top-0 left-0 z-50 flex items-center justify-center">
+    <div class="absolute w-full h-full bg-gold-100 opacity-100"></div>
+    {{#  Close Button: #}}
+    <button @click="show_canvas = false" class="block text-gold-500 absolute top-0 right-0" style="right:35px; top:17px">
+        <svg class="h-5 w-5 stroke-current" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg" style="">
+            <path d="M2 2L20.5 20.5M20.5 2L2 20.5" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+    </button>
+    {{#  Content  #}}
+    <div class="w-full z-50 overflow-y-auto">
+        <a href="/" title="Zur Startseite" class="block py-2 w-40 mx-auto">
+            {{ svg src="assets/layout/Logo RKB.svg" class="my-3" }}
+        </a>
+        <nav class="mt-16 font-sans font-normal">
+            {{ structure:headernav }}
+                <a class="my-8 text-center block uppercase tracking-wider text-gray-900 hover:underline {{if is_current}} text-gold-500 {{ /if }}" href="{{ url }}">{{ title }}</a>
+            {{ /structure:headernav }}
+        </nav>
+    </div>
+</div>

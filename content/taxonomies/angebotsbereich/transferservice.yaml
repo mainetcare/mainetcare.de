@@ -1,0 +1,116 @@
+title: 'Ihr Service'
+updated_by: bcc7e124-8753-45c4-9127-eacc804b6168
+updated_at: 1607084465
+blueprint: angebotsbereich
+rf: 60
+teaser:
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: ' Kommen Sie AN und seien Sie „zu Hause“ auf der Residenz Kubitzer Bodden. Ihre Wünsche stehen in unserem Fokus, die persönliche Betreuung von Ihnen ist unser Versprechen. Alle Belange der Anlage werden von hauseigenen Mitarbeitern getragen. Wir sind vor Ort! Wir garantieren Ihnen einen gleichbleibend hochwertig gepflegten Zustand. Sie werden durch unseren Empfang begrüßt und betreut, Schlüssel- und Wohnungsübergabe erfolgen immer persönlich.'
+  -
+    type: paragraph
+  -
+    type: set
+    attrs:
+      values:
+        type: bild
+        teaser_img: erlebniswelten/transferservice/Lobby.jpg
+  -
+    type: paragraph
+content:
+  -
+    type: heading
+    attrs:
+      level: 2
+    content:
+      -
+        type: text
+        text: Transferservice
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Wir bieten Ihnen verschiedene Transferservice von Rügen, Stralsund und Rostock und Rostock - Lage. '
+  -
+    type: set
+    attrs:
+      values:
+        type: bildreihe
+        bildreihe:
+          - erlebniswelten/transferservice/AdobeStock_209696743.jpeg
+        galerie-layout: gal-list
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Sie bezahlen für eine Strecke egal mit wieviel Personen. Kombinieren Sie zum Beispiel eine Zugfahrt mit unserem Haustürservice bis zu einer Entfernung von Berlin oder Hamburg (Ca.300km). Wählen Sie: sportlich und luxuriös im Mercedes CLS, auffällig im Dodge Ram oder gediegen in unserem Mercedes Bus mit eigener Lounge.'
+  -
+    type: heading
+    attrs:
+      level: 2
+    content:
+      -
+        type: text
+        text: Haustierservice
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Bringen Sie ihr Haustier doch einfach mit auf die Residenz, wir berechnen Ihnen nur einmalig eine Reinigunspauschale für Ihr Appartement.'
+  -
+    type: paragraph
+  -
+    type: set
+    attrs:
+      values:
+        type: bildreihe
+        bildreihe:
+          - erlebniswelten/transferservice/Hunde-Nutzung.jpg
+        galerie-layout: gal-list
+  -
+    type: heading
+    attrs:
+      level: 2
+    content:
+      -
+        type: text
+        text: 'Ihr Service'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Genießen sie das besondere und dies alles ohne weitere Kosten. Vom Obstkorb auf Ihrem Zimmer zur Anreise, über einen täglichen Zimmerservice - auf Wunsch mit täglich frischer Bett und Handtuchwäsche - über kostenlose Bademäntel bei der Nutzung des Sauna und Fitness Bereichs bis hin zu einem Regenjacken und Gummistiefel Service bei Regenwetter.'
+  -
+    type: set
+    attrs:
+      values:
+        type: bildreihe
+        bildreihe:
+          - erlebniswelten/transferservice/Zimmer-Service-1.jpg
+          - erlebniswelten/transferservice/Zimmer-Service-2.jpg
+        galerie-layout: gal-sixpack
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Sie können sich darauf verlassen, dass Ihr Leihfahrrad täglich gesäubert und aufgeladen wird, oder Ihre Reitstiefel geputzt sind, wenn Sie in der Trockenzone des Stalls abgestellt sind. Auf Wunsch reinigen wir auch Ihr privates Fahrzeug. Gern können sie auch Ihre Kleidung täglich in unserer hauseigenen Wäscherei waschen lassen.'
+  -
+    type: set
+    attrs:
+      values:
+        type: blockquote
+        quote: '... in jedem Prozess des Lebens will die Seele  des Menschen berührt werden ...'
+        verfasser: 'Ihre Eigentümerin Frau Kathrin Brass'
+  -
+    type: paragraph
+  -
+    type: paragraph
+col_img: erlebniswelten/transferservice/AdobeStock_209696743.jpeg

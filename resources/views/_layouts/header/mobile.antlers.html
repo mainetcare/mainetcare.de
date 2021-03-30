@@ -1,0 +1,48 @@
+<div class="w-full flex items-center justify-between">
+    <a href="/" title="Zur Startseite" class="w-40 py-2 block" style="max-width:120px;">
+        {{ svg src="assets/layout/Logo RKB.svg" }}
+    </a>
+<button @click="show_canvas = !show_canvas"
+        x-on:click.away="show_canvas = false"
+        x-on:key.escape="show_canvas = false"
+        type="button"
+        class="inline-block text-gold-500 hover:text-gray-900 focus:text-gray-900 focus:outline-none"
+>
+{{#  Hamburger Icon: #}}
+        <svg x-show="!show_canvas" class="w-6 h-6 stroke-current" viewBox="0 0 30 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M2 2H28M2 12H28M2 22H28" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+    {{#  Close Button: #}}
+            <svg x-show="show_canvas" x-cloak="" class="h-5 w-5 stroke-current" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg" style="">
+                <path d="M2 2L20.5 20.5M20.5 2L2 20.5" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+        </button>
+        </div>
+        {{# Off Canvas Navigation #}}
+            <div x-show.transition.duration.200ms="show_canvas" x-cloak="" class="fixed inset-0 z-50 bg-gold-100">
+
+                <div class="container w-full flex items-center justify-between">
+                    <a href="/" title="Zur Startseite" class="w-40 py-2 block" style="max-width:120px;">
+                        {{ svg src="assets/layout/Logo RKB.svg" }}
+                    </a>
+                    <button @click="show_canvas = false"
+                            @click.away="show_canvas = false"
+                            @key.escape="show_canvas = false"
+                            type="button"
+                            class="inline-block text-gold-500 hover:text-gray-900 focus:text-gray-900 focus:outline-none"
+                    >
+                        <svg class="h-5 w-5 stroke-current" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg" style="">
+                            <path d="M2 2L20.5 20.5M20.5 2L2 20.5" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </button>
+                </div>
+
+
+
+                <nav class="h-full flex flex-col justify-center m-auto font-sans font-semibold">
+                    {{ structure:headernav }}
+                    <a class="my-4 text-center block uppercase tracking-wider text-gold-500 hover:underline {{if is_current}} text-gold-600 {{ /if }}"
+                       href="{{ url }}">{{ title }}</a>
+                    {{ /structure:headernav }}
+                </nav>
+            </div>

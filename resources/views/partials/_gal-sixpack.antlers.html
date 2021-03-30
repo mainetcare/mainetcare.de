@@ -1,0 +1,27 @@
+<div class="">
+{{ if galerie | count == 1}}
+
+        {{ partial src="partials/gal-sixpack-1" :galerie="bildreihe" }}
+
+    {{ elseif galerie | count == 2 }}
+
+        {{ partial src="partials/gal-sixpack-2" :galerie="bildreihe" }}
+
+    {{ elseif galerie | count == 3 || galerie | count == 6 }}
+
+        {{ partial src="partials/gal-sixpack-6" :galerie="bildreihe" }}
+
+    {{ elseif galerie | count == 4 }}
+
+        {{ partial src="partials/gal-sixpack-4" :galerie="bildreihe" }}
+
+    {{ elseif galerie | count == 5 }}
+
+        {{ partial src="partials/gal-sixpack-5" :galerie="bildreihe" }}
+
+    {{ else }}
+
+        {{ partial src="partials/gal-sixpack-6" :galerie="bildreihe" }}
+
+{{ endif }}
+</div>

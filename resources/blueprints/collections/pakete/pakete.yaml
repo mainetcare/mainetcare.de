@@ -1,0 +1,173 @@
+title: Pakete
+sections:
+  main:
+    display: Hauptteil
+    fields:
+      -
+        handle: title
+        field:
+          type: text
+          required: true
+          validate:
+            - required
+      -
+        handle: nights
+        field:
+          input_type: number
+          display: Übernachtungen
+          type: text
+          icon: text
+          instructions: 'Wie viele Übernachtungen beinhaltet das Paket?'
+          listable: hidden
+          width: 50
+          validate:
+            - required
+      -
+        handle: bookable_persons
+        field:
+          input_type: number
+          character_limit: 1
+          antlers: false
+          display: 'Buchbare Personen maximal'
+          type: text
+          icon: text
+          instructions: 'Wie viele Personen (Teilnehmer + Begleitpersonen) können das Paket buchen? (Max 4)'
+          listable: hidden
+          width: 50
+      -
+        import: coldata
+  sidebar:
+    display: Sidebar
+    fields:
+      -
+        handle: slug
+        field:
+          type: slug
+          required: true
+          localizable: true
+          validate:
+            - required
+      -
+        handle: angebotsgruppe
+        field:
+          type: terms
+          taxonomies:
+            - angebotsgruppe
+          display: Angebotsgruppe
+          mode: select
+      -
+        handle: angebotsbereich
+        field:
+          type: terms
+          taxonomies:
+            - angebotsbereich
+          display: Angebotsbereich
+          mode: select
+      -
+        handle: parent
+        field:
+          type: entries
+          collections:
+            - pakete
+          max_items: 1
+          listable: false
+          localizable: true
+      -
+        handle: crossref
+        field:
+          max_items: 3
+          mode: select
+          collections:
+            - pakete
+          display: 'Siehe auch'
+          type: entries
+          icon: entries
+          instructions: 'Wählen Sie aus, welche Urlaubspakete unter "Diese Pakete könnten Sie auch interessieren" erscheinen.'
+          listable: hidden
+  detailseite:
+    display: Detailseite
+    fields:
+      -
+        import: teaser
+      -
+        import: contentset
+  preise:
+    display: Preise
+    fields:
+      -
+        handle: preisliste
+        field:
+          sets:
+            klasse:
+              display: Klasse
+              fields:
+                -
+                  handle: klasse
+                  field:
+                    mode: default
+                    taxonomies:
+                      - appartementklasse
+                    display: Klasse
+                    type: terms
+                    icon: taxonomy
+                    listable: hidden
+                    max_items: 1
+                    instructions: 'Wählen Sie die Appartment Klasse aus. Es ist nur eine Klasse auswählbar'
+                -
+                  handle: ez
+                  field:
+                    input_type: text
+                    display: EZ
+                    type: text
+                    icon: text
+                    instructions: 'Der Einzelzimmer Zuschlag (in %). Bitte ohne Prozentzeichen angeben'
+                    listable: hidden
+                    validate:
+                      - integer
+                -
+                  handle: teilnehmer_hs
+                  field:
+                    input_type: number
+                    display: 'Teilnehmer HS'
+                    type: text
+                    icon: text
+                    listable: hidden
+                    width: 50
+                    instructions: 'Der Preis pro Teilnehmer pro Hauptsaison für 1 Nacht'
+                -
+                  handle: begleitperson_hs
+                  field:
+                    input_type: text
+                    display: 'Begleitperson HS'
+                    type: text
+                    icon: text
+                    instructions: 'Der Preis pro Begleitperson pro Hauptsaison für 1 Nacht'
+                    listable: hidden
+                    width: 50
+                -
+                  handle: teilnehmer_ns
+                  field:
+                    input_type: text
+                    display: 'Teilnehmer NS'
+                    type: text
+                    icon: text
+                    listable: hidden
+                    width: 50
+                    instructions: 'Der Preis pro Teilnehmer pro Nebensaison für 1 Nacht'
+                -
+                  handle: begleitperson_ns
+                  field:
+                    input_type: text
+                    display: 'Begleitperson NS'
+                    type: text
+                    icon: text
+                    instructions: 'Der Preis pro Begleitperson pro Nebensaison für 1 Nacht'
+                    listable: hidden
+                    width: 50
+          display: Preisklassen
+          type: replicator
+          icon: replicator
+          listable: hidden
+          collapse: false
+          validate:
+            - required

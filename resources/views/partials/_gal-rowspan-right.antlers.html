@@ -1,0 +1,19 @@
+<div class="grid sm:grid-cols-2 sm:grid-rows-8 gap-8 sm:auto-cols-fr grid-cols-1">
+{{ galerie }}
+
+    {{ if index == 0 }}
+    <div class="sm:col-span-2 row-span-3 bg-gray-100">
+        <img class="object-cover w-full h-full" src="{{ glide:url fit="crop_focal" }}" alt="{{ alt }}">
+    </div>
+    {{ elseif index == 2 }}
+    <div class="sm:row-span-2 bg-gray-100">
+        <img class="object-cover w-full h-full" src="{{ glide:url fit="crop_focal" }}" alt="{{ alt }}">
+    </div>
+    {{ else }}
+    <div class="bg-gray-100">
+        <img class="object-cover w-full h-full" src="{{ glide:url fit="crop_focal" }}" alt="{{ alt }}">
+    </div>
+    {{ /if }}
+
+{{ /galerie }}
+</div>

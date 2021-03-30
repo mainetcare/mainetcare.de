@@ -1,0 +1,32 @@
+title: Mitarbeiter
+template: default
+layout: layout
+revisions: false
+sort_dir: asc
+date_behavior:
+  past: public
+  future: private
+structure:
+  root: false
+  max_depth: 1
+  tree:
+    -
+      entry: 493ef35c-2370-4932-81c0-f24cac9ed1a8
+    -
+      entry: 79e75689-af05-49a8-881b-25e40ae848b0
+    -
+      entry: 6d44daa2-3526-4d54-be68-4528063dd7a2
+    -
+      entry: dc0aacce-f458-4f3a-a665-17b229ff6e28
+    -
+      entry: 0d650665-19ea-4e9e-bfff-608dfeb891a4
+    -
+      entry: 8dc8382c-d4f9-4856-a22c-83cb66fb192c
+    -
+      entry: 2ceb9f03-0f15-49ca-b958-de019ecb92b8
+    -
+      entry: 07a9cd86-2a99-4f2a-b8c5-a688c2cefd14
+    -
+      entry: b99e5d90-9917-4e0b-b15d-b95e5e82acf5
+    -
+      entry: 8b964f05-88e7-4d76-96c3-665af9dd762c

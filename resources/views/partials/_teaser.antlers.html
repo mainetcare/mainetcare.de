@@ -1,0 +1,19 @@
+{{ teaser }}
+
+{{ if type == "text" }}
+
+<div class="sm:my-8 my-6 text-lg sm:text-2xl" style="hyphens:auto;">
+    {{ text }}
+</div>
+
+{{ elseif type == "bild" }}
+
+    {{ teaser_img }}
+    <figure class="sm:mt-8 mt-6">
+    <img src="{{ glide:url width="1024" height="683" fit="crop_focal" }}" alt="{{ alt }}">
+    </figure>
+    {{ /teaser_img }}
+
+{{ /if }}
+
+{{ /teaser }}

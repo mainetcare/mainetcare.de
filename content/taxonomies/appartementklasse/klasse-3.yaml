@@ -1,0 +1,14 @@
+title: 'Preisklasse 3: Appartement 2 Raum, 2 Ebenen, Loggien'
+klasse: 3
+preise:
+  hs: '330,00'
+  ns: '290,00'
+updated_by: bcc7e124-8753-45c4-9127-eacc804b6168
+updated_at: 1607083842
+blueprint: preise
+pauschalen:
+  -
+    beschreibung: Endreinigung
+    preis_pauschale: 189
+preistext: 'Ihr Preis beinhaltet WLAN, sowie Steuern und Servicegebühren.(Kurtaxe entfällt)'
+rf: 0

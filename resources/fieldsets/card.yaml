@@ -1,0 +1,49 @@
+title: Card
+fields:
+  -
+    handle: card_image
+    field:
+      mode: grid
+      restrict: false
+      allow_uploads: true
+      max_files: 1
+      display: 'Card Image'
+      type: assets
+      icon: assets
+      listable: hidden
+  -
+    handle: card_title
+    field:
+      input_type: text
+      display: 'Card Title'
+      type: text
+      icon: text
+      listable: hidden
+  -
+    handle: card_teaser
+    field:
+      restrict: false
+      automatic_line_breaks: true
+      automatic_links: true
+      escape_markup: false
+      smartypants: true
+      display: 'Card Teaser'
+      type: markdown
+      icon: markdown
+      listable: hidden
+  -
+    handle: card_label
+    field:
+      input_type: text
+      display: 'Card Label'
+      type: text
+      icon: text
+      listable: hidden
+  -
+    handle: card_url
+    field:
+      input_type: text
+      display: 'Card Action URL'
+      type: text
+      icon: text
+      listable: hidden

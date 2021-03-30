@@ -1,0 +1,85 @@
+title: Appartementklasse
+sections:
+  main:
+    display: Hauptteil
+    fields:
+      -
+        handle: title
+        field:
+          type: text
+          required: true
+          validate:
+            - required
+      -
+        handle: preise
+        field:
+          mode: keyed
+          keys:
+            hs: 'Preis Hauptsaison'
+            ns: 'Preis Nebensaison'
+          type: array
+          listable: hidden
+          display: Preise
+      -
+        handle: pauschalen
+        field:
+          fields:
+            -
+              handle: beschreibung
+              field:
+                input_type: text
+                display: 'Pauschale Beschreibung'
+                type: text
+                icon: text
+                listable: hidden
+                validate:
+                  - required
+            -
+              handle: preis_pauschale
+              field:
+                input_type: number
+                display: Preis
+                type: text
+                icon: text
+                listable: hidden
+                validate:
+                  - required
+                  - numeric
+          mode: table
+          reorderable: true
+          display: Pauschalen
+          type: grid
+          icon: grid
+          listable: hidden
+      -
+        handle: preistext
+        field:
+          restrict: false
+          automatic_line_breaks: true
+          automatic_links: false
+          escape_markup: false
+          smartypants: false
+          display: 'Preistext Appartementliste'
+          type: markdown
+          icon: markdown
+          instructions: 'Dieser Hinweis wird in der Auflistung der Appartements neben dem Preis angezeigt.'
+          listable: hidden
+  sidebar:
+    display: Sidebar
+    fields:
+      -
+        handle: slug
+        field:
+          type: slug
+          required: true
+          validate:
+            - required
+      -
+        handle: klasse
+        field:
+          type: integer
+          instructions: 'Preisklasse (dient nur der Übersicht bisher)'
+          listable: hidden
+          display: Klasse
+      -
+        import: reihenfolge

@@ -1,0 +1,92 @@
+sections:
+  adresse:
+    display: Adresse
+    fields:
+      -
+        handle: name
+        field:
+          type: text
+      -
+        handle: slogan
+        field:
+          type: text
+      -
+        handle: address
+        field:
+          type: text
+      -
+        handle: zipcode
+        field:
+          type: text
+      -
+        handle: telefon
+        field:
+          input_type: tel
+          display: Telefon
+          type: text
+          listable: hidden
+  e-mail:
+    display: E-Mail
+    fields:
+      -
+        handle: mail_request_to
+        field:
+          input_type: email
+          display: 'E-Mail Buchungsanfragen'
+          type: text
+          instructions: 'Die interne Email Adresse, an die Buchungsanfragen gesendet werden sollen'
+          listable: hidden
+      -
+        handle: email
+        field:
+          input_type: email
+          display: 'Allgemeine Kontakt-Email'
+          type: text
+          instructions: 'Die E-Mail Adresse, die auf der Website sichtbar ist.'
+          listable: hidden
+      -
+        handle: mail_footer
+        field:
+          display: 'E-Mail Footer'
+          type: textarea
+          icon: textarea
+          instructions: 'Der Text, der im Fußbereich einer E-Mail erscheinen soll.'
+          listable: hidden
+  social:
+    display: Social
+    fields:
+      -
+        handle: facebook
+        field:
+          input_type: text
+          display: Facebook
+          type: text
+          icon: text
+          instructions: 'Facebook Page Link'
+          listable: hidden
+      -
+        handle: instagram
+        field:
+          input_type: text
+          display: Instagram
+          type: text
+          icon: text
+          instructions: 'Instagram Link'
+          listable: hidden
+      -
+        handle: twitter
+        field:
+          input_type: text
+          display: Twitter
+          type: text
+          icon: text
+          instructions: 'Twitter Link'
+          listable: hidden
+      -
+        handle: youtube
+        field:
+          input_type: text
+          display: Youtube
+          type: text
+          icon: text
+          listable: hidden

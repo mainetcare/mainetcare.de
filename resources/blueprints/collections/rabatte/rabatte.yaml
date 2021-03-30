@@ -1,0 +1,215 @@
+title: Rabatte
+sections:
+  main:
+    display: Hauptteil
+    fields:
+      -
+        handle: title
+        field:
+          type: text
+          required: true
+          validate:
+            - required
+      -
+        handle: rabatt_prozent
+        field:
+          input_type: number
+          append: '%'
+          display: 'Rabatt in %'
+          type: text
+          icon: text
+          instructions: 'Der Rabatt für die Aktion, z.B. 15 für 15%'
+          listable: hidden
+          validate:
+            - required
+            - integer
+      -
+        handle: aktion_start
+        field:
+          mode: single
+          time_enabled: false
+          time_required: false
+          earliest_date: '2021-01-01'
+          full_width: false
+          inline: false
+          columns: 1
+          rows: 1
+          display: 'Aktion Start'
+          type: date
+          icon: date
+          instructions: 'Aktions Start'
+          listable: hidden
+          validate:
+            - required
+          width: 50
+      -
+        handle: aktion_end
+        field:
+          mode: single
+          time_enabled: false
+          time_required: false
+          earliest_date: '2021-01-01'
+          full_width: false
+          inline: false
+          columns: 1
+          rows: 1
+          display: 'Aktion Ende'
+          type: date
+          icon: date
+          instructions: 'Endedatum der Aktion'
+          listable: hidden
+          validate:
+            - required
+          width: 50
+      -
+        handle: booking_start
+        field:
+          mode: single
+          time_enabled: false
+          time_required: false
+          earliest_date: '1900-01-01'
+          full_width: false
+          inline: false
+          columns: 1
+          rows: 1
+          display: 'Buchungszeitraum Start'
+          type: date
+          icon: date
+          instructions: 'Gilt der Rabatt nur in einem bestimmten Buchungszeitraum?'
+          listable: hidden
+          width: 50
+      -
+        handle: booking_end
+        field:
+          mode: single
+          time_enabled: false
+          time_required: false
+          earliest_date: '1900-01-01'
+          full_width: false
+          inline: false
+          columns: 1
+          rows: 1
+          display: 'Buchungszeitraum Ende'
+          type: date
+          icon: date
+          instructions: 'Gilt der Rabatt nur in einem bestimmten Buchungszeitraum?'
+          listable: hidden
+          width: 50
+  sidebar:
+    display: Sidebar
+    fields:
+      -
+        handle: slug
+        field:
+          type: slug
+          required: true
+          localizable: true
+          validate:
+            - required
+  verknuepfungen:
+    display: Verknüpfungen
+    fields:
+      -
+        handle: effects_appartements
+        field:
+          display: 'Rabatt für Appartements'
+          type: toggle
+          icon: toggle
+          instructions: 'Rabatt für alle Appartements Individualbuchung'
+          width: 50
+          listable: hidden
+      -
+        handle: appartements
+        field:
+          mode: default
+          collections:
+            - appartements
+          display: Appartements
+          type: entries
+          icon: entries
+          instructions: 'Auswahl, wenn nur bestimmte Appartements rabattiert werden sollen'
+          listable: hidden
+          if:
+            effects_appartements: 'equals true'
+      -
+        handle: effects_angebote
+        field:
+          display: 'Rabatt für Angebote'
+          type: toggle
+          icon: toggle
+          instructions: 'Sollen Angebote rabattiert werden?'
+          listable: hidden
+      -
+        handle: angebote
+        field:
+          mode: default
+          collections:
+            - angebote
+          display: Angebote
+          type: entries
+          icon: entries
+          instructions: 'Sollen nur bestimmte Angebote rabattiert werden?'
+          listable: hidden
+          if:
+            effects_angebote: 'equals true'
+      -
+        handle: effects_pakete
+        field:
+          display: 'Für Rabatt Pakete'
+          type: toggle
+          icon: toggle
+          instructions: 'Pakete rabattieren'
+          listable: hidden
+      -
+        handle: pakete
+        field:
+          mode: default
+          collections:
+            - pakete
+          display: Pakete
+          type: entries
+          icon: entries
+          instructions: 'Sollen nur bestimmte Pakete rabattiert werden'
+          listable: hidden
+          if:
+            effects_pakete: 'equals true'
+  bewerbung:
+    display: Bewerbung
+    fields:
+      -
+        handle: homepage
+        field:
+          display: 'Als Teaser bewerben'
+          type: toggle
+          icon: toggle
+          instructions: 'Wenn aktiv, wird folgender Inhalt als Teaser-Banner dargestellt.'
+          listable: hidden
+      -
+        handle: subtitle
+        field:
+          input_type: text
+          display: Teasertitel
+          type: text
+          icon: text
+          instructions: 'Weiterer Titel (Erscheint genau unter dem Haupttitel)'
+          listable: hidden
+      -
+        handle: col_text
+        field:
+          restrict: false
+          automatic_line_breaks: true
+          automatic_links: false
+          escape_markup: false
+          smartypants: true
+          display: 'Teaser Homepage'
+          type: markdown
+          icon: markdown
+          instructions: 'Der kurze Anrisstext für die Aktion'
+          listable: hidden
+  content:
+    display: Content
+    fields:
+      -
+        import: teaser
+      -
+        import: contentset

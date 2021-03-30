@@ -1,0 +1,58 @@
+title: 'Call To Action Element'
+fields:
+  -
+    handle: cta_image
+    field:
+      mode: list
+      container: assets
+      restrict: false
+      allow_uploads: true
+      max_files: 1
+      type: assets
+      listable: hidden
+      display: 'CTA Image'
+  -
+    handle: cta_title
+    field:
+      input_type: text
+      type: text
+      listable: hidden
+      display: 'CTA Title'
+  -
+    handle: cta_teaser
+    field:
+      restrict: false
+      automatic_line_breaks: true
+      automatic_links: false
+      escape_markup: false
+      smartypants: true
+      type: markdown
+      listable: hidden
+      display: 'CTA Teaser'
+  -
+    handle: cta_label
+    field:
+      input_type: text
+      type: text
+      listable: hidden
+      display: 'CTA Label'
+  -
+    handle: cta_url
+    field:
+      input_type: text
+      display: 'CTA Action URL'
+      type: text
+      icon: text
+      listable: hidden
+  -
+    handle: cta_pos
+    field:
+      options:
+        cta_left: 'Bild links'
+        cta_right: 'Bild rechts'
+      inline: true
+      type: radio
+      listable: hidden
+      display: 'CTA Pos'
+  -
+    import: css_classes

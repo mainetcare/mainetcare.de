@@ -1,0 +1,45 @@
+title: Angebotsgruppe
+sections:
+  main:
+    display: Hauptteil
+    fields:
+      -
+        handle: title
+        field:
+          type: text
+          required: true
+          validate:
+            - required
+      -
+        handle: teaser
+        field:
+          restrict: false
+          automatic_line_breaks: true
+          automatic_links: false
+          escape_markup: false
+          smartypants: false
+          type: markdown
+          instructions: 'Freitext, erscheint in der Liste der jeweiligen Angebotsgruppe am Kopf'
+          listable: hidden
+          display: Teaser
+  sidebar:
+    display: Sidebar
+    fields:
+      -
+        handle: slug
+        field:
+          type: slug
+          required: true
+          validate:
+            - required
+      -
+        handle: angebotsbereich
+        field:
+          max_items: 1
+          mode: select
+          taxonomies:
+            - angebotsbereich
+          display: Angebotsbereich
+          type: terms
+          icon: taxonomy
+          listable: hidden

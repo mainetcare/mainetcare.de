@@ -1,0 +1,14 @@
+title: Header
+fields:
+  -
+    handle: header_image
+    field:
+      mode: grid
+      restrict: false
+      allow_uploads: true
+      max_files: 1
+      display: 'Header Image'
+      type: assets
+      icon: assets
+      instructions: 'Das Header Image wird vor dem Titel quer über dem gesamenten Bildschirm angezeigt'
+      listable: hidden

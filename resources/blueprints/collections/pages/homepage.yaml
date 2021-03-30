@@ -1,0 +1,87 @@
+title: Homepage
+sections:
+  main:
+    display: Main
+    fields:
+      -
+        handle: title
+        field:
+          type: text
+          required: true
+          validate:
+            - required
+      -
+        handle: homepage
+        field:
+          sets:
+            cta:
+              display: CTA
+              fields:
+                -
+                  import: c_t_a
+            carts:
+              display: Carts
+              fields:
+                -
+                  handle: card_title
+                  field:
+                    input_type: text
+                    display: Titel
+                    type: text
+                    icon: text
+                    listable: hidden
+                -
+                  handle: cardlist
+                  field:
+                    fields:
+                      -
+                        import: card
+                    mode: stacked
+                    max_rows: 3
+                    min_rows: 3
+                    add_row: 'Weitere Card (Genau 3)'
+                    reorderable: true
+                    display: Cardlist
+                    type: grid
+                    icon: grid
+                    listable: hidden
+                -
+                  handle: action_all_label
+                  field:
+                    input_type: text
+                    display: 'Aktion Alle ansehen Label'
+                    type: text
+                    icon: text
+                    listable: hidden
+                -
+                  handle: action_all_url
+                  field:
+                    input_type: text
+                    display: 'Aktion Alle ansehen URL'
+                    type: text
+                    icon: text
+                    listable: hidden
+          display: Homepage
+          type: replicator
+          icon: replicator
+          listable: hidden
+  sidebar:
+    display: Sidebar
+    fields:
+      -
+        handle: slug
+        field:
+          type: slug
+          required: true
+          localizable: true
+          validate:
+            - required
+      -
+        handle: parent
+        field:
+          type: entries
+          collections:
+            - pages
+          max_items: 1
+          listable: false
+          localizable: true

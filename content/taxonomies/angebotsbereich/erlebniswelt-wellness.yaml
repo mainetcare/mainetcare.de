@@ -1,0 +1,129 @@
+title: 'Erlebniswelt Wellness'
+updated_by: bcc7e124-8753-45c4-9127-eacc804b6168
+updated_at: 1607587900
+blueprint: angebotsbereich
+col_img: erlebniswelten/erlebniswelt_wellness/Kryotherapie.jpg
+rf: 40
+teaser:
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Die hauseigene Naturheilpraxis unter Leitung von '
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'Robert Ludwig'
+      -
+        type: text
+        text: ', bietet Ihnen individuelle Anwendungen zum Thema Gesundheit, Fitness, Fasten, Ernährung und Anti-Aging. Einmalig in der Region ist die Kryotherapie. Ein »Bad« in der Kältekammer, mit dem Ziel, Energieverbrauch und Fettverbrennung zu erhöhen. Besonders zu erwähnen ist auch die Mikronährstoff-Medizin. Die Residenz Kubitzer Bodden bietet Ihnen dazu die Vitamin-C-Hochdosis- sowie die Vitamin-B-Komplex-Therapie an; Therapien, die helfen, Ihre Gesundheit und Leistungsfähigkeit in vielfältiger Weise zu verbessern. So finden Sie auch zu Ihrer Natur zurück. '
+  -
+    type: paragraph
+  -
+    type: set
+    attrs:
+      values:
+        type: bild
+        teaser_img: erlebniswelten/erlebniswelt_wellness/Kryotherapie.jpg
+  -
+    type: paragraph
+content:
+  -
+    type: heading
+    attrs:
+      level: 2
+    content:
+      -
+        type: text
+        text: Kälte-Therapie
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Das Plus für Ihren Körper'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Die Kryotherapie ist eine Ganzkörper-Kälte-Therapie, die zu den physikalischen Naturheilverfahren zählt. In einer Kältekammer, die auf eine Temperatur von minus 110°C heruntergekühlt wurde, wird dem Körper Wärme entzogen. Unmittelbar nach dem Kaltbad wird die normale Körpertemperatur von knapp unter 37°C wieder hergestellt.'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Dieses »Wechselbad« der Temperaturen, hilft dem Organismus bestimmte Prozesse entweder zu dämpfen oder anzuregen. Außerdem steigt der körpereigene Energieverbrauch und die Fettverbrennung wird erhöht.'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Medizinisch nachgewiesen sind zudem antientzündliche und antirheumatische Effekte. Alle entzündlichen, degenerativen Krankheiten wie etwa Arthrose können positiv beeinflusst werden. Der Heilungsprozess von traumatischen Verletzungen (Muskelfaserrisse oder Bandscheibenvorfälle) wird ebenfalls beschleunigt. Darüber hinaus wird das Immunsystem stimuliert und damit die körpereigene Abwehr gestärkt. Im Leistungssport wird die Kryotherapie schon länger erfolgreich eingesetzt, um die Sauerstoffbindungskapazität des Blutes zu verbessern. Im Endeffekt wird dadurch eine deutliche Leistungs- und Ausdauersteigerung erreicht.'
+  -
+    type: paragraph
+  -
+    type: set
+    attrs:
+      values:
+        type: bildreihe
+        bildreihe:
+          - naturheilpraxis/Vitamin-Konzept.jpg
+        galerie-layout: gal-list
+  -
+    type: paragraph
+  -
+    type: heading
+    attrs:
+      level: 2
+    content:
+      -
+        type: text
+        text: Mikronährstoff-Medizin
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Mikronährstoffe – zu denen auch Vitamine gehören – sind für die Gesunderhaltung des Körpers und der Psyche erforderlich. Bei richtiger Versorgung unterstützen sie das Wohlbefinden und mindern das Risiko für viele Krankheiten. Die Mikronährstoff- oder Orthomolekular-Medizin setzt u.a. Vitamine und Mineralstoffe, aber auch essentielle Fettsäuren, sekundäre Pflanzenstoffe, Enzyme und Aminosäuren ein. Die Residenz Kubitzer Bodden bietet Ihnen zwei Therapieformen an: Die Vitamin-C-Hochdosis-Therapie sowie die Therapie mit Vitamin-B-Komplex. Begleitet werden diese Anwendungen von ausgebildeten Therapeuten'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Die Vitamin-C-Hochdosis verbessert den Immunstatus, festigt das Bindegewebe, erhöht die Stresstoleranz, wirkt antientzündlich und antirheumatisch, stimuliert das Nervensystems, verbessert die Entgiftungsfunktion von Leber und Niere, steigert den Fettabbau und den Muskelaufbau und lindert schwerwiegende allergische Reaktionen und deren Häufigkeit.'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Die Vitamine des B-Komplexes steigern die Leistung des Nervensystems, mindern Erschöpfungszustände, verbessern die Blutbildung und damit die Sauerstoffversorgung. Darüber hinaus haben sie eine antidepressive Wirkung, da sie die Bildung der Glückshormone – beispielweise von Serotonin – fördern. Außerdem kann durch eine Vitamin-B-Komplex-Injektion die Entgiftungsleistung des Körpers verbessert werden. Einhergehend damit wird eine geringere »Verschlackung« bewirkt.'
+  -
+    type: heading
+    attrs:
+      level: 2
+    content:
+      -
+        type: text
+        text: 'Lymphdrainage mit Slimyonik'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: "Durch eine individuelle Druckwellenmassage wird die Durchblutung von Haut und Fettgewebe angeregt und mobilisiert sanft Ihr Lymphsystem. Die Anwendungen passen exzellent zu Ihrem Fitnessprogramm auf der\_Residenz. Dabei bietet das Gerät 8 verschiedene Programme."
+  -
+    type: paragraph
+  -
+    type: set
+    attrs:
+      values:
+        type: bildreihe
+        bildreihe:
+          - naturheilpraxis/slimyonik-Lymphdrainage.jpg
+        galerie-layout: gal-list
+  -
+    type: paragraph

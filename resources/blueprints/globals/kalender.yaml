@@ -1,0 +1,60 @@
+sections:
+  main:
+    display: Hauptteil
+    fields:
+      -
+        handle: start_booking
+        field:
+          mode: single
+          time_enabled: false
+          time_required: false
+          earliest_date: '2021-01-01'
+          full_width: false
+          inline: false
+          columns: 1
+          rows: 1
+          display: Buchungsstart
+          type: date
+          icon: date
+          instructions: 'Ab wann sind Leistungen buchbar'
+          listable: hidden
+          validate:
+            - required
+            - 'after:today'
+      -
+        handle: hs
+        field:
+          fields:
+            -
+              handle: von
+              field:
+                mode: single
+                time_enabled: false
+                time_required: false
+                earliest_date: '2019-01-01'
+                full_width: false
+                inline: false
+                columns: 1
+                rows: 1
+                type: date
+                listable: hidden
+                display: Von
+            -
+              handle: bis
+              field:
+                mode: single
+                time_enabled: false
+                time_required: false
+                earliest_date: '2019-01-01'
+                full_width: false
+                inline: false
+                columns: 1
+                rows: 1
+                type: date
+                listable: hidden
+                display: Bis
+          mode: table
+          reorderable: true
+          type: grid
+          listable: hidden
+          display: Hauptsaison

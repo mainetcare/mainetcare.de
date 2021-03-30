@@ -1,0 +1,85 @@
+title: Contentset
+fields:
+  -
+    handle: content
+    field:
+      always_show_set_button: true
+      sets:
+        bildreihe:
+          display: Bildreihe
+          fields:
+            -
+              handle: bildreihe
+              field:
+                mode: grid
+                restrict: false
+                allow_uploads: true
+                display: Bildreihe
+                type: assets
+                icon: assets
+                listable: hidden
+            -
+              handle: galerie-layout
+              field:
+                options:
+                  gal-sixpack: 'Sixpack: Fürs perfekte Layout von 1-6 Bildern. Mehr Layout gibt es nicht'
+                  gal-rowspan-right: '4 Bilder, 3 Horizontal 1 Vertikal'
+                  gal-list: 'Alle Bilder untereinander'
+                  gal-grid: 'Variables Gitter'
+                multiple: false
+                clearable: false
+                searchable: false
+                taggable: false
+                push_tags: false
+                cast_booleans: false
+                display: Galerie-Layout
+                type: select
+                icon: select
+                instructions: 'Steuert die Darstellung der Galerie'
+                listable: hidden
+                validate:
+                  - required
+        blockquote:
+          display: Blockquote
+          fields:
+            -
+              handle: quote
+              field:
+                display: Zitat
+                type: textarea
+                icon: textarea
+                instructions: 'Das Zitat'
+                listable: hidden
+            -
+              handle: verfasser
+              field:
+                input_type: text
+                display: Verfasser
+                type: text
+                icon: text
+                instructions: 'Von wem stammt das Zitat'
+                listable: hidden
+      buttons:
+        - h2
+        - h3
+        - bold
+        - italic
+        - unorderedlist
+        - orderedlist
+        - removeformat
+        - quote
+        - anchor
+        - image
+        - table
+      save_html: false
+      toolbar_mode: fixed
+      link_noopener: false
+      link_noreferrer: false
+      target_blank: false
+      reading_time: false
+      fullscreen: true
+      allow_source: true
+      display: Content
+      type: bard
+      icon: bard
+      listable: hidden

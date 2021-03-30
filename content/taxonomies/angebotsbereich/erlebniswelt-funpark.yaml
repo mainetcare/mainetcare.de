@@ -1,0 +1,59 @@
+title: 'Erlebniswelt Funpark'
+updated_by: bcc7e124-8753-45c4-9127-eacc804b6168
+updated_at: 1606462058
+blueprint: angebotsbereich
+col_img: erlebniswelten/erlebniswelt_fun_park/Quad.jpg
+rf: 30
+teaser:
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Sie können die Insel per pedes erkunden oder sich im Fun-Park der Residenz bedienen. Ein umfangreiches Angebot an Fahrrädern, E-Bikes, Quads, Jetskis, Motorrädern und Elektroautos stehten zu Ihrem persönlichen Spaß zur Ausleihe bereit. Gern bieten wir Ihnen auch verschiedene geführte Touren an.'
+  -
+    type: paragraph
+  -
+    type: set
+    attrs:
+      values:
+        type: bild
+        teaser_img: erlebniswelten/erlebniswelt_fun_park/Fahhrrad.jpg
+  -
+    type: paragraph
+content:
+  -
+    type: paragraph
+  -
+    type: paragraph
+  -
+    type: set
+    attrs:
+      values:
+        type: bildreihe
+        bildreihe:
+          - erlebniswelten/erlebniswelt_fun_park/E-Bike.jpg
+          - erlebniswelten/erlebniswelt_fun_park/Mountainbike.jpg
+        galerie-layout: gal-sixpack
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Was gibt es Schöneres als bei herrlichem Wetter und frischer Seeluft mit dem Fahrrad die Landschaft zu erkunden? Wer es bequemer liebt, startet mit dem E-Bike.'
+  -
+    type: set
+    attrs:
+      values:
+        type: bildreihe
+        bildreihe:
+          - erlebniswelten/erlebniswelt_fun_park/Jetski.jpg
+          - erlebniswelten/erlebniswelt_fun_park/Motorrad.jpg
+          - erlebniswelten/erlebniswelt_fun_park/Quad-Tour.jpg
+        galerie-layout: gal-sixpack
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Sie sind gerne etwas flotter unterwegs? Dann nutzen Sie unsere bereitstehenden Quads, Jetskis oder Motorräder zur Ausleihe. Wenn sie die Insel lieber mit einem E-Auto erkunden möchten, geben Sie doch ihr Fahrzeug bei uns kostenlos in den Pflege-Service und nutzen eins unserer hauseigenen Elektro Fahrzeuge zur Ausleihe.'

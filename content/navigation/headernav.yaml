@@ -1,0 +1,11 @@
+title: HeaderNav
+tree:
+  -
+    title: 'Leistungen & Preise'
+    url: /leistungen-und-preise
+  -
+    title: 'Über uns'
+    url: /ueber-uns
+  -
+    title: 'Blog'
+    url: /blog

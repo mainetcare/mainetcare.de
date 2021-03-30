@@ -1,0 +1,22 @@
+{{ collection:mitarbeiter }}
+
+<div class="mt-16">
+    <div class="grid gird-cols-1 sm:grid-cols-3 gap-8">
+        <div class="bg-white {{ if !col_img }} hidden sm:block {{ /if }}">
+            {{ if col_img }}
+            <img class="" src="{{ glide:col_img width="500" height="500" fit="crop_focal" }}" alt="{{ alt }}">
+            {{ else }}
+            {{ svg src="assets/layout/RKB_Markenlogo.svg" class="m-20" }}
+            {{ /if }}
+        </div>
+        <div class="sm:col-span-2 h-full">
+            <div class="flex flex-col justify-starf h-full">
+                <h3 class="heading2 text-3xl font-medium sm:leading-none text-gray-900">{{ title }}</h3>
+                <div class="mt-4 text-xlg font-medium sm:leading-none">{{ teaser }} {{ text }} {{ /teaser }}</div>
+                <div class="mt-4 content sm:mt-8">{{ content }} {{ text }} {{ /content }}</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{{ /collection:mitarbeiter }}

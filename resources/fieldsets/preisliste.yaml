@@ -1,0 +1,14 @@
+title: Preisliste
+fields:
+  -
+    handle: preisliste
+    field:
+      sets:
+        preisgruppe:
+          display: Preisgruppe
+          fields:
+            -
+              import: staffelpreise
+      type: replicator
+      listable: hidden
+      display: Preisliste

@@ -1,0 +1,71 @@
+title: Veranstaltungen
+sections:
+  main:
+    display: Hauptteil
+    fields:
+      -
+        handle: title
+        field:
+          type: text
+          required: true
+          validate:
+            - required
+      -
+        import: teaser
+      -
+        handle: startdate
+        field:
+          mode: single
+          time_enabled: true
+          time_required: false
+          earliest_date: '1900-01-01'
+          full_width: false
+          inline: false
+          columns: 1
+          rows: 1
+          display: Start
+          type: date
+          icon: date
+          instructions: 'Startdatum der Veranstaltung'
+          listable: hidden
+      -
+        handle: enddate
+        field:
+          mode: single
+          time_enabled: true
+          time_required: false
+          earliest_date: '1900-01-01'
+          full_width: false
+          inline: false
+          columns: 1
+          rows: 1
+          display: Ende
+          type: date
+          icon: date
+          instructions: 'Das Enddatum der Veranstaltung bei mehrtägigen Veranstaltungen'
+          listable: hidden
+  sidebar:
+    display: Sidebar
+    fields:
+      -
+        handle: slug
+        field:
+          type: slug
+          required: true
+          localizable: true
+          validate:
+            - required
+      -
+        handle: date
+        field:
+          type: date
+          required: true
+          validate:
+            - required
+  content:
+    display: Content
+    fields:
+      -
+        import: header
+      -
+        import: contentset

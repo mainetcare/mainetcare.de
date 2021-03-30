@@ -1,0 +1,14 @@
+title: 'Preisklasse 5: Appartement 3 Raum, 2 Ebenen, 2 Loggien'
+klasse: 5
+preise:
+  hs: '510,00'
+  ns: '450,00'
+updated_by: bcc7e124-8753-45c4-9127-eacc804b6168
+updated_at: 1607083871
+blueprint: preise
+pauschalen:
+  -
+    beschreibung: Endreinigung
+    preis_pauschale: 210
+preistext: 'Ihr Preis beinhaltet WLAN, sowie Steuern und Servicegebühren.(Kurtaxe entfällt)'
+rf: 0

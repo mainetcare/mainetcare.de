@@ -1,0 +1,40 @@
+.btn {
+
+    @apply font-sans font-bold text-sm tracking-widest rounded-md px-4 py-4 text-gray-900 bg-green-500 uppercase transition ease-in duration-200;
+    @apply border-2 border-green-500;
+
+    &:hover {
+        @apply border-green-400 bg-green-400 text-black;
+    }
+
+    &:focus {
+        @apply outline-none;
+    }
+}
+
+.btn-disabled {
+    @apply bg-green-200 border-green-200 text-gray-500;
+    &:hover {
+        @apply text-gray-500 bg-green-200 border-green-200;
+    }
+}
+
+.btn-out {
+
+    @apply btn text-green-500 bg-transparent;
+
+    &:hover {
+        @apply bg-transparent border-green-400 text-green-400;
+    }
+
+    &:focus {
+        @apply outline-none;
+    }
+
+}
+
+.btn-flat {
+    @apply py-3;
+}
+
+

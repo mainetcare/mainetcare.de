@@ -1,0 +1,57 @@
+/*noinspection ALL*/
+
+:root {
+    --fixed-header-height: 50px;
+    --header-img-height: 270px;
+}
+@screen md {
+    :root {
+        --fixed-header-height: 80px;
+        --header-img-height: 470px;
+    }
+}
+
+.container {
+    @apply px-6;
+@screen sm {
+    @apply px-8;
+}
+}
+
+.arrow,
+.arrow::before {
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    z-index: -1;
+}
+
+.arrow::before {
+    content: '';
+    transform: rotate(45deg);
+    @apply bg-white border-green-200 border-0 border-l border-t;
+    z-index: -1;
+}
+
+.droppanel[data-popper-placement^='top'] > .arrow {
+    bottom: -6px;
+}
+
+.droppanel[data-popper-placement^='top'] > .arrow::before {
+    @apply border-0 border-r border-b;
+}
+
+.droppanel[data-popper-placement^='bottom'] > .arrow {
+    top: -6px;
+}
+
+.droppanel[data-popper-placement^='left'] > .arrow {
+    right: -6px;
+}
+
+.droppanel[data-popper-placement^='right'] > .arrow {
+    left: -6px;
+}
+
+
+

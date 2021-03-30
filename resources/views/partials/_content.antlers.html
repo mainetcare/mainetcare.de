@@ -1,0 +1,37 @@
+{{ content }}
+
+{{ if type == "text" }}
+
+<div class="content sm:my-12 my-8">
+    {{ text }}
+</div>
+
+{{ elseif type == "blockquote" }}
+<blockquote class="sm:my-12 my-8">
+    <div class="text-center italic px-4 text-3xl leading-normal text-gold-500">
+        <span class="inline">„{{ quote | widont:4 }}“</span>
+    </div>
+    {{ if verfasser }}
+    <div class="text-center mt-6 label text-base">{{ verfasser }}</div>
+    {{ /if }}
+</blockquote>
+
+{{ elseif type == "bildreihe" }}
+
+<div class="sm:my-12 my-8">
+    {{ if galerie-layout}}
+    {{ partial src="partials/{galerie-layout}" :galerie="bildreihe" }}
+    {{ /if }}
+</div>
+
+
+{{ elseif type == "image" }}
+
+<figure>
+    <img src="{{ image }}" alt="{{ caption }}"/>
+    <figcaption>{{ caption }}</figcaption>
+</figure>
+
+{{ /if }}
+
+{{ /content }}

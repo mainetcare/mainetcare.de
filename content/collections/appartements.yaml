@@ -1,0 +1,57 @@
+title: Appartements
+template: default
+layout: layout
+taxonomies:
+  - appartementklasse
+revisions: false
+route: 'appartements/{slug}'
+sort_dir: asc
+date_behavior:
+  past: public
+  future: private
+structure:
+  root: false
+  max_depth: 1
+  tree:
+    -
+      entry: d1a48a96-1475-4e7e-a970-5c51e6891b4a
+    -
+      entry: 2d85acd2-3135-4a26-8826-55aea3e52e4a
+    -
+      entry: bc34f2f4-7735-4229-a782-ce7bf491750b
+    -
+      entry: 91739b75-8bf7-46d4-bc5d-c93e4144b060
+    -
+      entry: fd332cd7-c5a1-4fb8-8cb9-830f93046ec6
+    -
+      entry: 0e326533-9723-4ad6-8e5e-e92f287c295c
+    -
+      entry: 9d7d74d2-bb60-4bef-894a-18f02d022095
+    -
+      entry: 025fc09e-a6ec-4a49-8eef-ca35995dbbdf
+    -
+      entry: cf9dc72e-77f0-4a78-87c4-98c00fcf6056
+    -
+      entry: 5197133b-386d-4e3f-b19b-d682f4b5c77a
+    -
+      entry: b4a784e3-11d9-407f-89e4-73b88127ff89
+    -
+      entry: aaf58497-5ee2-405c-bad0-0986c7b8b90a
+    -
+      entry: c9830508-a7b3-4cf0-8862-51f0ecc3a37d
+    -
+      entry: a5718d53-a1fa-4ec0-8c46-56bfe5189c26
+    -
+      entry: 4747d10b-61fe-4396-a6b5-06380accbd8d
+    -
+      entry: 05d23cf2-c4ed-4a6c-8df8-fab060070309
+    -
+      entry: 78170e8f-0b0e-4d0c-8204-82564202e1cb
+    -
+      entry: 85ff83f0-4958-45e9-b82f-15671bb63018
+    -
+      entry: 616071d7-0a5b-4b07-8d70-531ffab273ff
+    -
+      entry: 184a6f37-2bff-47d8-9cd2-9e5fa3e554d8
+    -
+      entry: 6202e338-76f2-441a-bd1c-a08e40d17750

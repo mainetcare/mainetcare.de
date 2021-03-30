@@ -1,0 +1,23 @@
+<div class="container py-2">
+    <div class="justify-between flex items-end py-1">
+
+        <div class="">
+            <a href="/" title="Zur Startseite" class="block" style="max-width:160px;">
+                {{ svg src = "assets/layout/logo.svg" }}
+            </a>
+        </div>
+
+        <nav class="flex items-end justify-end uppercase text-white leading-none tracking-widest text-sm font-sans font-medium">
+            {{ structure:headernav }}
+            <a href="{{ url }}"
+               class="whitespace-no-wrap mx-4 block hover:text-green-500 {{if is_current}} text-green-500 {{ /if }} transition-all duration-300"
+               title="Zur Seite {{ url }} navigieren"
+            >
+                {{ title }}
+            </a>
+            {{ /structure:headernav  }}
+            <a title="Jetzt anrufen" href="tel:+493096606679" class="ml-4 tracking-wide hover:text-green-500 transition-all duration-300">(030) 966 066 79</a>
+        </nav>
+
+    </div>
+</div>

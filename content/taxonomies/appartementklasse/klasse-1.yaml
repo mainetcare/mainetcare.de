@@ -1,0 +1,13 @@
+title: 'Preisklasse 1: Appartement 2 Raum, EG, Terrasse'
+klasse: 1
+preise:
+  hs: '220,00'
+  ns: '180,00'
+updated_by: bcc7e124-8753-45c4-9127-eacc804b6168
+updated_at: 1605707784
+blueprint: preise
+pauschalen:
+  -
+    beschreibung: Endreinigung
+    preis_pauschale: '189'
+preistext: 'Ihr Preis beinhaltet WLAN, sowie Steuern und Servicegebühren.(Kurtaxe entfällt)'

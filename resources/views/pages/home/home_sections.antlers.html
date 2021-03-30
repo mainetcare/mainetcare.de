@@ -1,0 +1,19 @@
+{{ homepage }}
+{{ if type == "cta" }}
+<div class="container my-40 grid grid-cols-1 md:grid-cols-2 sm:gap-20 {{ css_class }}">
+    {{ partial src="partials/{cta_pos}" }}
+</div>
+{{ elseif type == "carts" }}
+    <div class="bg-gold-100 island-p">
+        <div class="container">
+            <header class="">
+                <h3 class="font-serif leading-tight text-center text-gold-500 lg:text-4xl text-2xl font-medium">{{ card_title }}</h3>
+            </header>
+            <div class="lg:mt-16 mt-8 grid grid-cols-1 sm:grid-cols-3 gap-4 lg:gap-8 lg:gap-y-8">
+            {{ partial src="partials/cards" }}
+            </div>
+            <a href="{{ action_all_url }}" role="button" class="text-center block mt-4 lg:mt-8 text-xs lg:text-sm w-full btn-out bg-transparent">{{ action_all_label }}</a>
+        </div>
+    </div>
+{{ /if }}
+{{ /homepage }}

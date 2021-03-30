@@ -1,0 +1,29 @@
+title: Globals
+sections:
+  main:
+    display: Main
+    fields:
+      -
+        handle: name
+        field:
+          input_type: text
+          type: text
+          localizable: false
+          listable: hidden
+          display: 'Company Name'
+      -
+        handle: slogan
+        field:
+          input_type: text
+          type: text
+          localizable: false
+          listable: hidden
+          display: Slogan
+      -
+        handle: address
+        field:
+          input_type: text
+          type: text
+          localizable: false
+          listable: hidden
+          display: Address

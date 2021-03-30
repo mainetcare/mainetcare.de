@@ -1,0 +1,7 @@
+title: Veranstaltungen
+template: veranstaltungen/show
+layout: layout
+revisions: false
+route: 'veranstaltung/{slug}'
+date: true
+sort_dir: asc

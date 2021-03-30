@@ -1,0 +1,8 @@
+<p class="font-sans font-medium uppercase tracking-wider">{{ title }}</p>
+<nav class="mt-4">
+    <ul>
+        {{ navitems }}
+        <li class="mt-4"><a class="hover:underline {{if is_current}} underline {{ /if }}" href="{{ url }}">{{ title }}</a></li>
+        {{ /navitems }}
+    </ul>
+</nav>

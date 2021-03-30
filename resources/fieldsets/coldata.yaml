@@ -1,0 +1,27 @@
+title: 'Data in List View'
+fields:
+  -
+    handle: col_img
+    field:
+      mode: grid
+      restrict: false
+      allow_uploads: true
+      max_files: 1
+      display: 'Bild in Listendarstellung'
+      type: assets
+      icon: assets
+      instructions: 'Bild, das in der Listendarstellung dargestellt wird.'
+      listable: hidden
+  -
+    handle: col_text
+    field:
+      restrict: false
+      automatic_line_breaks: true
+      automatic_links: false
+      escape_markup: false
+      smartypants: false
+      display: 'Text Listendarstellung'
+      type: markdown
+      icon: markdown
+      instructions: 'Kurzer Abrisstext, der in einigen Listen erscheint und als Teaser wirken soll (Beispiel: Angebote)'
+      listable: hidden

@@ -1,0 +1,49 @@
+name: 'Michael Mai'
+super: true
+id: 122fd801-7f34-4b63-aa9f-698c14614ebb
+password_hash: $2y$10$LFmjTe15QjOWN6pQjTfMc.zPjmByiT7JVKJzkoOvwaMet1Xd9ABXi
+preferences:
+  collections:
+    pages:
+      after_save: continue_editing
+    angebote:
+      columns:
+        - title
+        - col_img
+        - slug
+        - angebotsgruppe
+        - angebotsbereich
+      after_save: continue_editing
+      filters:
+        angebotsgruppe:
+          display: Angebotsgruppe
+          filters:
+            fields:
+              angebotsgruppe:
+                term: gefuehrte-ausritte
+    pferde:
+      after_save: continue_editing
+    pakete:
+      columns:
+        - title
+        - slug
+        - preisliste
+        - nights
+        - col_img
+      after_save: continue_editing
+    jobangebote:
+      after_save: continue_editing
+    rabatte:
+      after_save: continue_editing
+  assets:
+    assets:
+      mode: table
+  taxonomies:
+    angebotsbereich:
+      after_save: continue_editing
+      columns:
+        - title
+        - slug
+        - rf
+    appartementklasse:
+      after_save: continue_editing

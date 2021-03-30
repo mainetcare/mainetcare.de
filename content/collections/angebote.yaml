@@ -1,0 +1,8 @@
+title: Angebote
+taxonomies:
+  - angebotsgruppe
+  - angebotsbereich
+revisions: false
+date_behavior:
+  past: public
+  future: private

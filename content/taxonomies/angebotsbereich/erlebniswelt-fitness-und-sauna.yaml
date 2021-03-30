@@ -1,0 +1,148 @@
+title: 'Erlebniswelt Fitness & Sauna'
+updated_by: bcc7e124-8753-45c4-9127-eacc804b6168
+updated_at: 1606292365
+blueprint: angebotsbereich
+col_img: erlebniswelten/erlebniswelt_fitness_und_sauna/Mixed-Card.jpg
+rf: 20
+teaser:
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Im Sommer und bei gutem Wetter ist die Natur das ideale Sportstudio. Dann findet Ihr Training auf den umliegenden Grünflächen der Anlage statt. Aber ganz gleich, ob Outdoor oder Indoor: Damit der Trainingseffekt möglichst groß ist, sind die Sport-Gruppen auf der Residenz klein. Dafür ist die Auswahl an Trainingsmöglichkeiten und Gerätschaft umso größer.'
+  -
+    type: paragraph
+  -
+    type: set
+    attrs:
+      values:
+        type: bild
+        teaser_img: erlebniswelten/erlebniswelt_fitness_und_sauna/Mixed-Card.jpg
+  -
+    type: paragraph
+content:
+  -
+    type: heading
+    attrs:
+      level: 3
+    content:
+      -
+        type: text
+        text: 'Trainieren mit Trainer'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Buchen Sie einen professionellen Sporttherapeuten für Ihr Personal Training. Auf Basis individualisierter Trainingseinheiten trainieren Sie in Ihrem Fitnessstudio unter sporttherapeutischer Anleitung – ganz nach Ihren Bedürfnissen. Bei der Durchführung individueller Übungen steht Ihnen Ihr persönlicher Sporttherapeut jederzeit zur Seite'
+  -
+    type: heading
+    attrs:
+      level: 3
+    content:
+      -
+        type: text
+        text: 'Nehmen Sie es sportlich'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Trainieren Sie an speziellen »Hammer Strength Ground Based«-Fitness-Geräten Ihren gesamten Körper mit nur zwei hochfunktionellen Übungen nach dem Push-Pull-Prinzip. Dieses sogenannte antiglykolytisch ausgerichtete Trainingssystem findet auf Grundlage biowissenschaftlicher Untersuchungen statt.'
+  -
+    type: heading
+    attrs:
+      level: 3
+    content:
+      -
+        type: text
+        text: 'Gewichtiges Workout'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Eine Kugelhantel – englisch Kettlebell – ist ein Trainingsgerät für das freie Gewichtstraining. Früher sagte man auch Rundgewicht dazu. Die Kettlebell erlaubt die Ausführung besonderer Übungen, die eine Vielzahl von Muskelgruppen gleichzeitig ansprechen. Das Rundkugel-Workout wirkt effektiv auf den ganzen Körper und verbessert Kraft und Ausdauer in relativ kurzer Zeit.'
+  -
+    type: heading
+    attrs:
+      level: 3
+    content:
+      -
+        type: text
+        text: 'Am Puls der Zeit'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Herz- und Kreislauf Training dient der Verbesserung der Herzleistung und der Steigerung der Lungenkapazität. Sie trainieren an und auf hochmodernen Cardio-Geräten, die ein pulsgesteuertes Training auch bei bestehenden Vorerkrankungen auf einem Low-Intensity-Steady-State erlauben. Für den ambitionierten Sportler ist ebenso ein High-Intensity-Intervalltraining möglich. Grundsätzlich fördert das Cardio-Training die allgemeine Leistungsfähigkeit, optimiert den Hormonspiegel und forciert den Fettabbau.'
+  -
+    type: heading
+    attrs:
+      level: 3
+  -
+    type: set
+    attrs:
+      values:
+        type: bildreihe
+        bildreihe:
+          - erlebniswelten/erlebniswelt_fitness_und_sauna/Stretching.jpg
+          - erlebniswelten/erlebniswelt_fitness_und_sauna/Bauch-Beine-Po.jpg
+          - erlebniswelten/erlebniswelt_fitness_und_sauna/Sauna.jpg
+          - erlebniswelten/erlebniswelt_fitness_und_sauna/Kettlebelltraining.jpg
+          - erlebniswelten/erlebniswelt_fitness_und_sauna/Personal_Training.jpg
+          - erlebniswelten/erlebniswelt_fitness_und_sauna/Yoga.jpg
+        galerie-layout: gal-rowspan-right
+  -
+    type: heading
+    attrs:
+      level: 3
+    content:
+      -
+        type: text
+        text: 'Fitness Studio'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Training nach Lust und Laune und mit Maß.'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Das Laufband und Sitzfahrrad, ausgestattet mit HD-Touchscreen-Konsolen, bieten während des Cardio-Trainings umfangreiche Unterhaltungsmöglichkeiten. Oder steigen Sie auf den »UpperCycle GX Ergometer«, einem Oberkörper-Trainer, auf dem Sie im Stehen trainieren.'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Schonen Sie Ihre Knie: Mit dem »SPARC Trainer« machen Sie aus Ihrem Cardio-Taining ein Hochleistungstraining ohne dabei die Kniegelenke zu belasten.'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Setzen Sie auf Bewegung: Die Ground-Base-Geräte »Jammer« und »Squat Lunge« sind bewegungs- und nicht muskelbasiert. Trainieren Sie gleich mehrere Muskelgruppen gleichzeitig, um ein umfassendes Training für Ihren Körper zu erzielen und vor allem die Sprungkraft systematisch zu entwickeln.'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Bauchtraining – auch gut für den Rücken: Leg Raises sind Beinhebeübungen. Der »Leg Raise« ermöglicht durch seine große, sphärisch geformte Rückenlehne eine optimale Rückenstabilisierung während des Bauchtrainings.'
+  -
+    type: paragraph
+  -
+    type: paragraph
+  -
+    type: set
+    attrs:
+      values:
+        type: blockquote
+        quote: 'Ein ein-stündiges Workout ist nur 4% deines Tages.'
+        verfasser: null
+  -
+    type: paragraph

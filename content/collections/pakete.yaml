@@ -1,0 +1,39 @@
+title: Pakete
+template: paket/show
+layout: default
+revisions: false
+route: 'urlaubspakete/{slug}'
+sort_dir: asc
+date_behavior:
+  past: public
+  future: private
+structure:
+  root: false
+  max_depth: 1
+  tree:
+    -
+      entry: 248b2ce8-0c2c-45be-8851-46b644d057cf
+    -
+      entry: 2b45addc-7189-4344-966f-d863519f44f9
+    -
+      entry: c9e001e5-a763-4122-8731-9fc5ac13d9a3
+    -
+      entry: 4c62583e-5e4d-4f2f-bbbd-b666fd117682
+    -
+      entry: a0e01cf6-779f-43c8-9e4d-ec9e98b4078e
+    -
+      entry: 04039a27-f7d1-44e1-9ac2-0c9d7d41f702
+    -
+      entry: c5f56f79-8319-4e22-a822-143e3ef5318d
+    -
+      entry: 9c1da210-c7c6-4aab-a3ba-591951bad070
+    -
+      entry: 65029959-ed15-43f0-b1ea-1d503caba310
+    -
+      entry: 6f0a90bb-f5e9-4646-ad64-ae83ac165f1d
+    -
+      entry: a4cdf5bc-d8c8-44f4-b79b-cb306b737dd9
+    -
+      entry: 17fdde1f-4f6e-4152-8674-bb5bce0287ec
+    -
+      entry: 3747861e-5e66-4dfc-8bd5-f3a782b717b4
